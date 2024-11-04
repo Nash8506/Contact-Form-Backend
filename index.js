@@ -23,7 +23,7 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model('Contact', contactSchema);
 
 // Middleware
-app.use(cors({ origin: 'https://contact-form-frontend-mhwtkwucj-nashids-projects.vercel.app/' }));
+app.use(cors({ origin: 'https://contact-form-frontend-mhwtkwucj-nashids-projects.vercel.app' }));
 app.use(express.json());
 
 // POST route for the contact form
